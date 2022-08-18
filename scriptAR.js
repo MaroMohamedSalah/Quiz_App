@@ -149,7 +149,7 @@ function end(res , count){
         pre.style.opacity = '0'
         qNum.style.opacity = '0'
         qp.innerHTML = `النتيجة: <span style="color:var(--Q-color);
-        font-size: 37px;">${rate}</span> `
+        font-size: 19px;">${rate}</span> `
         setTimeout(() => {
             box.innerHTML = `<h1 class="result">
             <span>${res}</span> اسئلة صح من <span>${count}</span>
