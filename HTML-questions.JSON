@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Which color Marwan prefere?",
+        "answer_1": "Red",
+        "answer_2": "Blue",
+        "answer_3": "Black",
+        "answer_4": "White",
+        "right_answer": "Blue"
+    },
+    {
+        "title": "Girl's name that Marwan hates?",
+        "answer_1": "Rawan",
+        "answer_2": "Shahd",
+        "answer_3": "Sara",
+        "answer_4": "Esraa",
+        "right_answer": "Shahd"
+    },
+    {
+        "title": "In what field does Marwan study?",
+        "answer_1": "dance",
+        "answer_2": "Draw",
+        "answer_3": "Trading",
+        "answer_4": "Computer Science",
+        "right_answer": "Computer Science"
+    },
+    {
+        "title": "Which hobby does Marwan prefer?",
+        "answer_1": "sleep",
+        "answer_2": "coding",
+        "answer_3": "football",
+        "answer_4": "Date girls",
+        "right_answer": "coding"
+    },
+    {
+        "title": "What are Marwan's biggest fears?",
+        "answer_1": "the darkness",
+        "answer_2": "bullying",
+        "answer_3": "failure",
+        "answer_4": "rejection",
+        "right_answer": "failure"
+    },
+    {
+        "title": "My birthday?",
+        "answer_1": "4/1/2002",
+        "answer_2": "30/80/2003",
+        "answer_3": "1/4/2003",
+        "answer_4": "1/1/2003",
+        "right_answer": "1/4/2003"
+    },
+    {
+        "title": "My FAV songer?",
+        "answer_1": "Amr Diab",
+        "answer_2": "Mohamed Mounir",
+        "answer_3": "Umm Kolthom",
+        "answer_4": "Select all",
+        "right_answer": "Select all"
+    },
+    {
+        "title": "My FAV drink?",
+        "answer_1": "Tea",
+        "answer_2": "Coffee",
+        "answer_3": "Cola",
+        "answer_4": "Select all",
+        "right_answer": "Coffee"
+    },
+    {
+        "title": "What is my social status?",
+        "answer_1": "Taken",
+        "answer_2": "Single",
+        "answer_3": "",
+        "answer_4": "",
+        "right_answer": "Single"
+    },
+    {
+        "title": "The things that comfort me the most",
+        "answer_1": "Music",
+        "answer_2": "Coffee",
+        "answer_3": "Sleep",
+        "answer_4": "Select all",
+        "right_answer": "Music"
+    }
+]
