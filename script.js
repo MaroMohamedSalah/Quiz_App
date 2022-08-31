@@ -10,6 +10,20 @@ let a2 = document.querySelector(".a2")
 let a3 = document.querySelector(".a3")
 let a4 = document.querySelector(".a4")
 let ch;
+
+// let title = document.getElementById('title');
+// let arr = [...title.textContent]
+// let wds = 0;
+// // title.style.width =  `${(}px`
+// for(let i=0 ; i < (arr.length + 1)*20.4 ; set i = i + 20.4){
+//     setTimeout(() => {
+//         setTimeout(() => {
+//             title.style.width = `${i}px`
+//             console.log(i)
+//         }, 1000);
+//     }, 1000);
+// }
+
 a1.onmouseover = () =>{
     a1.style.backgroundColor = `${box.style.borderColor}`
 }
