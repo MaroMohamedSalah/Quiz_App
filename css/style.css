@@ -275,3 +275,85 @@ ul{
             font-size: 69px;
         }
     }
+/* social media  */
+.followMe{
+    position: absolute;
+    /* left: -320px; */
+    left: -84px;
+    top: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 578px;
+    transition: all 1.5s ease-in-out;
+}
+.followMe .ex{
+    font-size: 22px;
+    position: absolute;
+    top: 66px;
+    right: -9px;
+    color: var(--Q-color);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+#ex{
+    z-index: 20;
+    opacity: 0;
+}
+#re{
+    z-index: -1;
+    opacity: 0;
+    transition: all 1s 1s ease-in-out;
+}
+.followMe h1{
+    font-size: 17px;
+    color: var(--Q-color);
+    font-weight: 400;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    white-space: nowrap;
+}
+.followMe div{
+    font-size: 39px;
+}
+#face{
+    transition: all 0.5s 1s ease-in-out;
+    color: #1778F2;
+}
+#insta{
+    transition: all 0.5s 1.2s ease-in-out;
+    color: #C13584;
+}
+#git{
+    transition: all 0.5s 1.4s ease-in-out;
+    /* color: #0d1117; */
+    color: var(--font2-color);
+}
+#linkedIn{
+    transition: all 0.5s 1.6s ease-in-out;
+    color: #0A66C2;
+}
+/* Small */
+@media (max-width: 768px){
+    .followMe{
+        left:  -140px;
+        display: flex;
+        flex-direction: row;
+        width: 329px;
+        height: 10px;
+        top: 241px;
+        transform: translateX(-63%);
+        gap: 25px;
+    }
+    .followMe .ex{
+        top: -20px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px){
+    .followMe{
+        left: -221px;
+    }
+}

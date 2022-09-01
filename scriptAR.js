@@ -160,3 +160,68 @@ function end(res , count){
         }, 3000);
     }
 }
+
+
+// social Media 
+media()
+function media(){
+    let socialMedia = document.getElementById('follow');
+    let follow = document.getElementById('f');
+    let ex = document.getElementById('ex');
+    let re = document.getElementById('re');
+    setTimeout(() => {
+        socialMedia.style.left = '28px'
+    }, 15000);
+    if (window.matchMedia("(max-width: 768px)").matches) {
+        setTimeout(() => {
+            socialMedia.style.left = '50%'
+        }, 15000);
+    }
+    if (window.matchMedia("(min-width: 789px) and (max-width: 992px)").matches) {
+        setTimeout(() => {
+            socialMedia.style.left = '-80px'
+        }, 15000);
+    }
+    setTimeout(() => {  
+        follow.style.opacity = '0';      
+        ex.style.opacity = '1';
+        ex.style.zIndex = '20';
+        re.style.opacity = '0';
+        re.style.zIndex = '-1';
+        ex.onclick = () =>{
+            socialMedia.style.left = '-62px'
+
+            if (window.matchMedia("(max-width: 768px)").matches) {
+                socialMedia.style.left = '-143px'
+            }
+            if (window.matchMedia("(min-width: 789px) and (max-width: 992px)").matches) {
+                socialMedia.style.left = '-221px'
+        }
+
+            re.style.opacity = '1'
+            ex.style.opacity = '0'
+
+            re.style.zIndex = '20';
+            ex.style.zIndex = '-1';
+            setTimeout(() => {
+                follow.style.opacity = '1';
+            }, 1000);
+        }
+    }, 20000);
+    re.onclick = () =>{
+        socialMedia.style.left = '28px';
+        if (window.matchMedia("(max-width: 768px)").matches) {
+            socialMedia.style.left = '50%';
+        }
+        if (window.matchMedia("(min-width: 789px) and (max-width: 992px)").matches) {
+            socialMedia.style.left = '-80px';
+        }
+        setTimeout(() => {
+            ex.style.opacity = '1'
+            ex.style.zIndex = '20';
+            follow.style.opacity = '0';
+        }, 5000);
+        re.style.opacity = '0'
+        re.style.zIndex = '-1';
+    }
+}
